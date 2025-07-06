@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <!--- basic page needs
+    ================================================== -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>PutevodClub</title>
+        <meta
+            name="description"
+            content="Добро пожаловать на наш портал о путешествиях! Здесь вы найдёте авторские путеводители, полезные советы туристам, а также тщательно подобранные маршруты для самостоятельных поездок. Команда экспертов — Ирина Соколова, Алексей Морозов и Дмитрий Лавров — делится опытом, как планировать отдых, что стоит увидеть и как избежать распространённых ошибок в пути. Откройте для себя новые горизонты с надёжной информацией и вдохновляющими статьями на тему туризма."
+        />
+
+        <script>
+            document.documentElement.classList.remove("no-js");
+            document.documentElement.classList.add("js");
+        </script>
+
+        <!-- CSS
+    ================================================== -->
+        <link rel="stylesheet" href="css/vendor.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <!-- favicons
+    ================================================== -->
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body id="top">
+        <!-- preloader
+    ================================================== -->
+        <div id="preloader">
+            <div id="loader" class="dots-fade">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- page wrap
+    ================================================== -->
+        <div id="page" class="s-pagewrap ss-home">
+            <!-- # site header 
+================================================== -->
+            <header class="s-header">
+                <div
+                    style="justify-content: space-between"
+                    class="row s-header__inner width-sixteen-col"
+                >
+                    <div class="s-header__block">
+                        <div class="s-header__logo">
+                            <a
+                                style="font-size: 30px; font-weight: bold"
+                                class="logo"
+                                href="index.html"
+                            >
+                                PutevodClub
+                            </a>
+                        </div>
+
+                        <a class="s-header__menu-toggle" href="#0"
+                            ><span>Меню</span></a
+                        >
+                    </div>
+                    <!-- end s-header__block -->
+
+                    <nav class="s-header__nav">
+                        <ul class="s-header__menu-links">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li><a href="services.html">Услуги</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="contact.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <!-- end s-header__nav -->
+                </div>
+                <!-- end s-header__inner -->
+            </header>
+            <!-- end s-header -->
+
+            <!-- # site main content
+================================================== -->
+            <section id="content" class="s-content">
+                <!-- intro
+    ----------------------------------------------- -->
+                <section id="intro" class="s-intro">
+                    <div class="row s-intro__content width-sixteen-col">
+                        <div
+                            class="column lg-12 s-intro__content-inner grid-block"
+                        >
+                            <div class="s-intro__content-text">
+                                <div
+                                    class="s-intro__content-pretitle text-pretitle"
+                                >
+                                    Привет, я Алексей Смирнов
+                                </div>
+                                <h1 class="s-intro__content-title">
+                                    Добро пожаловать <br />
+                                    на сайт, посвящённый <br />
+                                    путешествиям, маршрутам <br />
+                                    и полезным советам <br />
+                                    туристам
+                                </h1>
+                            </div>
+
+                            <div class="s-intro__content-media">
+                                <div class="s-intro__content-media-inner">
+                                    <img
+                                        src="images/intro-bg.jpg"
+                                        srcset="
+                                            images/intro-bg.jpg    1x,
+                                            images/intro-bg@2x.jpg 2x
+                                        "
+                                        alt=""
+                                    />
+                                    <div class="lines">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="s-intro__scroll-down">
+                                <a href="#about" class="smoothscroll">
+                                    <div class="scroll-icon">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            width="36"
+                                            height="36"
+                                            fill="none"
+                                            stroke="#97b34a"
+                                            stroke-width="1"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <!--! Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons -->
+                                            <polyline
+                                                points="7 13 12 18 17 13"
+                                            ></polyline>
+                                            <line
+                                                x1="12"
+                                                y1="18"
+                                                x2="12"
+                                                y2="6"
+                                            ></line>
+                                        </svg>
+                                    </div>
+                                    <span>Прокрутите вниз</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end s-intro -->
+
+                <!-- about
+    ----------------------------------------------- -->
+                <section id="about" class="s-about target-section">
+                    <div class="row s-about__content width-sixteen-col">
+                        <div class="column grid-block grid-section-split">
+                            <img
+                                src="images/geometric_shape.svg"
+                                alt=""
+                                class="s-about__content-imgbg"
+                            />
+
+                            <div
+                                class="section-header grid-section-split__header"
+                            >
+                                <div class="text-pretitle">О проекте</div>
+                                <h2 class="text-display-title">
+                                    Всё о путешествиях: маршруты, лайфхаки,
+                                    вдохновение
+                                </h2>
+                            </div>
+
+                            <div
+                                class="s-about__content-main grid-section-split__primary"
+                            >
+                                <p class="attention-getter">
+                                    <strong style="color: white"
+                                        >Кто мы?</strong
+                                    >
+                                    Мы — команда энтузиастов, таких как Алексей
+                                    Смирнов, Мария Гончарова и Игорь Левицкий,
+                                    которые объездили десятки мест и готовы
+                                    делиться с вами лучшими советами по
+                                    организации поездок, подбору маршрутов и
+                                    практичными рекомендациями для туристов.
+                                </p>
+
+                                <p class="attention-getter">
+                                    <strong style="color: white"
+                                        >Наш опыт</strong
+                                    >
+                                    Мы тщательно исследуем направления, маршруты
+                                    и достопримечательности, чтобы предложить
+                                    вам самые актуальные и вдохновляющие идеи
+                                    для путешествий. На нашем сайте вы найдёте
+                                    путеводители, списки мест, которые стоит
+                                    увидеть, а также советы по комфортному и
+                                    безопасному путешествию.
+                                </p>
+
+                                <p class="attention-getter">
+                                    <strong style="color: white"
+                                        >Зачем мы это делаем?</strong
+                                    >
+                                    Мы верим, что каждое путешествие — это
+                                    возможность открыть новое, расширить границы
+                                    и наполнить жизнь впечатлениями. Мы хотим
+                                    помочь вам сделать каждый маршрут
+                                    запоминающимся и удобным, даже если вы
+                                    планируете поездку самостоятельно.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end s-about -->
+
+                <!-- expertise
+    ----------------------------------------------- -->
+                <section id="expertise" class="s-expertise">
+                    <div class="row s-expertise__content width-sixteen-col">
+                        <div class="column xl-12 grid-block grid-section-split">
+                            <div
+                                class="section-header grid-section-split__header"
+                            >
+                                <div class="text-pretitle">Направления</div>
+                                <h2 class="text-display-title">
+                                    Основные темы нашего сайта
+                                </h2>
+
+                                <p class="lead">
+                                    Мы помогаем путешественникам спланировать
+                                    поездку: от выбора маршрута до сбора
+                                    чемодана. Вот основные направления, которые
+                                    мы освещаем.
+                                </p>
+                            </div>
+
+                            <div
+                                class="s-expertise__content-main grid-section-split__primary"
+                            >
+                                <div
+                                    class="grid-list-items list-items show-ctr"
+                                >
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Путеводители по направлениям
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Подробные и практичные
+                                                путеводители с картами, советами
+                                                и местами, которые обязательно
+                                                стоит посетить. Каждый маршрут
+                                                составлен на основе личного
+                                                опыта и отзывов
+                                                путешественников.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Советы по организации поездок
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Полезные рекомендации: как
+                                                выбрать билеты, где
+                                                остановиться, что взять с собой,
+                                                как сэкономить и избежать
+                                                неприятностей в дороге.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Идеи для самостоятельных
+                                                маршрутов
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Авторские маршруты для
+                                                самостоятельных
+                                                путешественников: от уикендов до
+                                                длинных отпусков. Подходит как
+                                                новичкам, так и опытным
+                                                туристам.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Поддержка и вдохновение
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Истории, обзоры, интервью и
+                                                фотогалереи, которые вдохновят
+                                                вас на новые путешествия. Мы
+                                                рядом, чтобы вы чувствовали
+                                                уверенность на любом этапе
+                                                своего пути.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end s-expertise__content-main -->
+                        </div>
+                    </div>
+                </section>
+                <!-- end s-expertise -->
+            </section>
+            <!-- s-content-->
+
+            <!-- # journal
+================================================== -->
+            <section id="journal" class="s-journal">
+                <div class="row s-journal__content width-sixteen-col">
+                    <div class="column xl-12 grid-block">
+                        <div class="grid-full section-header text-center">
+                            <div class="text-pretitle">Свежие статьи</div>
+                            <h2 class="text-display-title">
+                                Последние материалы о путешествиях и маршрутах
+                            </h2>
+                        </div>
+                        <!-- end section-header -->
+
+                        <div
+                            class="grid-full s-journal__content-main grid-list-items"
+                        >
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <img src="images/blog-1.jpg" alt="" />
+                                    <div class="blog-card__cat-links">
+                                        <a
+                                            >Самостоятельное путешествие по
+                                            новым маршрутам</a
+                                        >
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Как выбрать маршрут для первого
+                                            самостоятельного путешествия</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Планируете первое путешествие
+                                        самостоятельно? В статье Алексей Смирнов
+                                        делится пошаговым руководством по выбору
+                                        оптимального маршрута. Узнайте, на что
+                                        стоит обратить внимание при планировании
+                                        и как избежать ошибок новичка.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <img src="images/blog-2.jpg" alt="" />
+                                    <div class="blog-card__cat-links">
+                                        <a>Полезные советы для туристов</a>
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Топ-7 туристических лайфхаков от
+                                            Марии Гончаровой</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Известная тревел-блогер Мария Гончарова
+                                        делится простыми, но эффективными
+                                        советами, которые сделают ваше
+                                        путешествие комфортным и безопасным.
+                                        Узнайте, что стоит взять с собой, как
+                                        упаковать рюкзак и сэкономить на
+                                        проживании.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <img src="images/blog-3.jpg" alt="" />
+                                    <div class="blog-card__cat-links">
+                                        <a href="blog.html"
+                                            >Идеи для коротких маршрутов</a
+                                        >
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >3 маршрута выходного дня от Игоря
+                                            Левицкого</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Ищете вдохновение для уикенда? Игорь
+                                        Левицкий подготовил три маршрута,
+                                        которые можно пройти за два дня.
+                                        Природа, уютные города и интересные
+                                        локации ждут вас. Отличный выбор для
+                                        короткого перерыва от повседневной
+                                        рутины.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <img src="images/blog-4.jpg" alt="" />
+                                    <div class="blog-card__cat-links">
+                                        <a>Путешествия с детьми</a>
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Как спланировать маршрут, если вы
+                                            путешествуете с семьёй</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Семейные путешествия требуют особого
+                                        подхода. В статье мы расскажем, как
+                                        выбрать маршрут, подходящий для детей,
+                                        как планировать остановки и какие вещи
+                                        взять с собой, чтобы поездка прошла
+                                        максимально комфортно для всех членов
+                                        семьи.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+                        </div>
+                        <!-- end grid-list-items -->
+                    </div>
+                    <!-- end grid-block-->
+                </div>
+                <!-- end s-journal__content -->
+            </section>
+            <!-- end s-journal -->
+
+            <!-- # footer 
+        ================================================== -->
+            <footer class="s-footer">
+                <div class="row s-footer__content">
+                    <div
+                        class="column xl-3 lg-3 md-12 s-footer__block s-footer__about"
+                    >
+                        <h3>PutevodClub</h3>
+                        <p>
+                            Добро пожаловать в официальный клуб путешественников
+                            PutevodClub! Подписывайтесь, чтобы получать
+                            актуальные советы, маршруты и полезные рекомендации
+                            для ваших поездок.
+                        </p>
+                    </div>
+                    <div
+                        class="column xl-3 lg-3 md-12 s-footer__block s-footer__site-links"
+                    >
+                        <h3>Полезные ссылки</h3>
+                        <ul class="link-list">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li>
+                                <a href="terms-of-use.html"
+                                    >Условия использования</a
+                                >
+                            </li>
+                            <li>
+                                <a href="privacy-policy.html"
+                                    >Политика конфиденциальности</a
+                                >
+                            </li>
+                            <li>
+                                <a href="cookie-policy.html">Политика cookie</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="column xl-3 lg-3 md-12 tab-12 s-footer__block s-footer__newsletter"
+                    >
+                        <h3>Контакты</h3>
+                        <p>Ахмет Жұбанов көшесі 7, Астана 020000, Казахстан</p>
+                        <p>+77172725777</p>
+                        <p>putevod_club@gmail.com</p>
+                    </div>
+                    <div
+                        class="column xl-3 lg-3 md-12 tab-12 s-footer__block s-footer__newsletter"
+                    >
+                        <h3>Подписка на новости</h3>
+
+                        <div class="subscribe-form">
+                            <form method="get" action="thanks.html">
+                                <input
+                                    style="margin-bottom: 0px !important"
+                                    type="email"
+                                    name="EMAIL"
+                                    id="email"
+                                    class="u-fullwidth text-center"
+                                    placeholder="Ваш Email"
+                                    required
+                                />
+
+                                <input
+                                    style="margin-top: 16px !important"
+                                    type="submit"
+                                    name="subscribe"
+                                    value="Подписаться"
+                                    class="btn btn--primary btn--small u-fullwidth"
+                                    id="submit"
+                                />
+                                <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                                <div class="mc-status"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end s-footer -->
+        </div>
+        <!-- end page-wrap -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper">
+            <div class="sub-wrapper">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">
+                        Согласие на использование cookie
+                    </h2>
+                </div>
+
+                <div class="data">
+                    <p id="cookie-text">
+                        Этот сайт использует cookie для улучшения и
+                        персонализации вашего опыта просмотра.
+                        <a href="cookie-policy.html">Подробнее...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">
+                        Принять
+                    </button>
+                    <button class="cookie-button" id="declineBtn">
+                        Отклонить
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- Java Script
+    ================================================== -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
